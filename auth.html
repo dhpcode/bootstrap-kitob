@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -16,8 +16,8 @@
     <title>Kitoblar</title>
 </head>
 
-<body>
-    <div class="container-fluid">
+<body class="h-100">
+    <div class="container-fluid h-100 d-flex flex-column">
         <div class="row">
             <div class="col">
                 <!-- header qatori boshlandi -->
@@ -71,63 +71,33 @@
             </div>
         </div>
         <!-- header qatori tugadi -->
-
-        <!-- main qatori boshlandi -->
-        <div class="row mt-4">
-
-            <!-- sidebar boshlandi -->
-            <div class="col-12 col-md-3">
-                <ul class="list-group">
-                    <li class="list-group-item">Detektiv</li>
-                    <li class="list-group-item active" aria-current="true">Klassika</li>
-                    <li class="list-group-item">Fantastika</li>
-                    <li class="list-group-item">Komediya</li>
-                    <li class="list-group-item">Romantika</li>
-                </ul>
+        <!-- MAIN -->
+        <div class="container flex-grow-1 my-5 d-flex justify-content-center align-items-center ">
+          <div class="row flex-column align-items-center justify-content-center w-75 justify-content-center text-bg-secondary py-5">
+            <div class="col-6 mb-3">
+              <h2>Kirish</h2>
             </div>
-            <!-- sidebar tugadi -->
-
-            <!-- Kontent boshlandi -->
-            <div class="col-12 col-md-9">
-                <h1>O'tkan kunlar</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores similique voluptatibus
-                    necessitatibus odio, cum odit nam! Eveniet nesciunt quibusdam sapiente unde omnis, optio facere
-                    dignissimos iste suscipit perferendis quidem animi mollitia consequatur doloremque a, deserunt iure
-                    assumenda necessitatibus! Sed doloribus corporis culpa optio iusto maiores ut minima ea illo velit
-                    ullam quibusdam sequi id, laudantium magnam sint debitis ipsa, earum nulla facilis quod architecto
-                    odio dolor. Libero error laborum eos similique est, sunt fugiat quod commodi pariatur a soluta
-                    molestias, ratione inventore nobis magnam praesentium velit blanditiis sed dolorem illum. Maxime
-                    dolor minima voluptatibus deleniti eligendi assumenda fugit est tenetur?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae aut saepe pariatur repellendus modi
-                    rerum quae facere aspernatur, ex laudantium id quibusdam perspiciatis exercitationem repellat nulla,
-                    ad eum molestias nam sunt! Aliquam, ducimus! Quis ipsam voluptatum et beatae maxime. Ratione
-                    repellendus exercitationem mollitia, officiis commodi eligendi aperiam odio. Omnis quos libero
-                    magnam. Sint quo eos temporibus aperiam earum voluptatibus quos, excepturi sequi dignissimos
-                    doloribus quae. Rerum exercitationem laboriosam aut vel, dolorem quidem esse magnam cum optio
-                    dolores enim explicabo saepe pariatur sunt aperiam a? Asperiores at accusamus ab necessitatibus
-                    laboriosam quae fugit, exercitationem, neque excepturi possimus praesentium. Possimus, sequi magni?
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus id minus cumque labore quas earum
-                    eligendi non eos. Vitae itaque maxime perferendis fugiat modi quia enim, quis, laboriosam error quas
-                    ipsam. Recusandae reiciendis at facere, minus accusantium similique fugit explicabo dolorem, sed
-                    fuga, ipsa corrupti quia vero harum perspiciatis et quisquam. Tenetur cum reiciendis magnam
-                    temporibus rerum corrupti consequuntur unde impedit illo et, est placeat suscipit quas accusantium
-                    velit, doloremque officia voluptate! Ratione itaque vel autem magni consequuntur perspiciatis
-                    recusandae totam nostrum iste neque, architecto iure assumenda maiores aperiam, dicta atque cumque!
-                    Non modi, fugiat dolorum nulla officia accusantium minus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam perspiciatis. Cumque
-                    quaerat, cum quibusdam dolore nam earum aperiam fuga, error iste vero delectus iusto dolorum, sed
-                    eum eaque. Quasi, eveniet molestiae, voluptatibus dignissimos voluptate sint sit culpa hic nobis
-                    voluptatum optio. Quam, distinctio quasi facilis labore autem numquam! Facilis non molestiae
-                    quisquam ratione quas rem maiores ducimus cumque! Nobis fugiat ipsa facilis! Corporis, nisi
-                    obcaecati. Temporibus nemo blanditiis veritatis. Consequatur, reprehenderit maxime necessitatibus
-                    soluta dignissimos iusto. Architecto voluptatem culpa earum odit nemo, fugiat, placeat officiis
-                    veniam amet suscipit quisquam vel aspernatur. Laboriosam blanditiis velit saepe, vero ex dolore ea!
-                </p>
+            <div class="col-6">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Elektron pochtangizni kiriting</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Maxfiy so'z</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Yodda saqlash</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirish</button>
+              </form>
             </div>
-            <!-- Kontent tugadi -->
+          </div>
         </div>
-        <!-- main qatori tugadi -->
+
 
         <!-- footer qatori boshlandi -->
         <div class="row">
